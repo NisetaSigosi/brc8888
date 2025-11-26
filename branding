@@ -1,0 +1,5 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#f7931a" />
+  <text x="50" y="110" font-family="Arial" font-size="40" fill="#000">BRC</text>
+  <text x="50" y="150" font-family="Arial" font-size="40" fill="#000">-8888</text>
+</svg>
