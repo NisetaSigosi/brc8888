@@ -1,32 +1,86 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# BRC-8888 — .gitignore (Python + Ordinals project)
 
-# Test binary, built with `go test -c`
-*.test
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
 
-# Code coverage profiles and other test artifacts
-*.out
-coverage.*
-*.coverprofile
-profile.cov
-
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
-go.work
-go.work.sum
-
-# env file
+# Virtual environments
 .env
+.venv/
+env/
+venv/
+ENV/
+.venv*/
+env.bak/
+venv.bak/
 
-# Editor/IDE
-# .idea/
-# .vscode/
+# Python packaging & build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+pip-wheel-metadata/
+share/python-wheels/
+wheels/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Testing & coverage
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.cache
+nosetests.xml
+*.cover
+.hypothesis/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs & temp files
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local config / secrets
+.env
+.env.local
+.env.*.local
+config.local.py
+
+# Optional: if you ever add media uploads
+media/local/
+media/test/
+
+# Ordinals-specific temp files
+*.psbt
+*.unsigned
+*.signed
+temp_*.json
