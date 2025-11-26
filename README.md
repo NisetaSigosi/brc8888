@@ -129,7 +129,7 @@ BRC-8888/
 │   ├── merkle_root.py          # Compute bundle root
 │   ├── package_evolve.py       # Template generator
 │   ├── ai_trait_gen.py         # Simple AI demo for evolvable traits (e.g., generate dynamic attributes)
-│   └── README.md               # Script docs
+│   └── DeveloperScripts.md     # Script docs
 │
 ├── tools/
 │   ├── cli_reference.md        # Usage details
