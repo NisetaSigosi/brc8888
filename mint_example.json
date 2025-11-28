@@ -1,0 +1,25 @@
+{
+  "p": "brc8888-1",
+  "v": "1",
+  "op": "mint",
+  "tick": "UNQ",
+  "qty": 100,
+  "minter": "bc1pMinterAddressPlaceholder000000000000",
+  "price": {
+    "amount_sats": 2100,
+    "currency": "BTC",
+    "note": "Phased fixed price per unit in sats (Phase 1: 2100 for first 10M; Phase 2: 4200 for next 11M with AI perks); total cost computed as price_sats * qty = 210000 sats for 100 in Phase 1, paid via on-chain output to deploy's reserve_address"
+  },
+  "fees": {
+    "fee_type": "onchain_output",
+    "protocol_fee_percent": 1,
+    "fee_address": "bc1puez48076vx6d3lnxkgnwzahsmpvmklfcnulcq0jgu6u4dl2yhmpsjr9kq0",
+    "fee_scope": "per_tx",
+    "note": "Indexers require an on-chain output >= 1% of tx value to fee_address in the same tx. fee_scope='per_tx' means base fees are collected once per mint inscription transaction (not per unit). For non-exempt mint, + phased price to reserve_address minus 1% to fee_address (computed by indexer, e.g., ~2100 sats here for 100 units)."
+  },
+  "meta": {
+    "reason": "Public minting UNQ units via phased fixed price",
+    "timestamp": "2025-11-18T16:00:00Z",
+    "created_by": "Niseta Sigosi"
+  }
+}

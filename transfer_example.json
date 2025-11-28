@@ -1,0 +1,21 @@
+{
+  "p": "brc8888-1",
+  "v": "1",
+  "op": "transfer",
+  "tick": "UNQ",
+  "qty": 500,
+  "from": "bc1pSenderAddressPlaceholder000000000000",
+  "to": "bc1pExampleDestAddress000000000000",
+  "fees": {
+    "fee_type": "onchain_output",
+    "protocol_fee_percent": 1,
+    "fee_address": "bc1puez48076vx6d3lnxkgnwzahsmpvmklfcnulcq0jgu6u4dl2yhmpsjr9kq0",
+    "fee_scope": "per_tx",
+    "note": "Indexers require an on-chain output >= 1% of tx value to fee_address in the same tx. fee_scope='per_tx' means fees are collected once per transfer inscription transaction. Additional checks: sufficient balance in 'from' (post any locks/vesting), no exceeds on recipient caps if applicable."
+  },
+  "meta": {
+    "reason": "Transfer UNQ units (public/non-locked tokens only; indexer validates balance and conditions)",
+    "timestamp": "2025-11-18T15:54:00Z",
+    "created_by": "Niseta Sigosi"
+  }
+}

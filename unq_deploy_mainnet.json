@@ -1,0 +1,81 @@
+{
+"p": "brc8888-1",
+"v": "1",
+"op": "deploy",
+"tick": "UNQ",
+"genesis": true,
+"otype": "u-object",
+"supply": 21000000,
+"decimals": 8,
+"mint_rules": {
+"user_cap": "10000",
+"exempt_addrs": [
+{
+"address": "bc1p2egtxaky7jfn9drm53qaq0pyy9ap4yfppmg58w5ysvpvlcwx980q86yzm0",
+"role": "founder",
+"amount": 1000000,
+"reason": "Founder allocation for bootstrap — auditable, vested and locked to prevent dumps",
+"vesting": {
+"type": "linear",
+"start": "2025-11-18T00:00:00Z",
+"cliff_days": 90,
+"duration_days": 365,
+"unlock_period": "monthly",
+"notes": "After a 90-day cliff, founder tokens unlock linearly monthly for 12 months."
+},
+"required_auth": {
+"evolve_lock_inscription": "inscription_id_that_locks_founder_tokens"
+},
+"lock_conditions": {
+"lock_until_public_minted": 20000000,
+"description": "Founder allocation remains non-transferable / non-mintable until public mints reach 20,000,000 UNQ."
+}
+}
+],
+"exempt_reason": "Founder fair share: 1M UNQ for bootstrap — disclosed, vested via evolve + lock",
+"cooldown_blocks": 144,
+"phases": [
+{
+"start_minted": "0",
+"end_minted": "10000000",
+"price_sats": 2100,
+"perks": "Base access"
+},
+{
+"start_minted": "10000001",
+"end_minted": "21000000",
+"price_sats": 4200,
+"perks": "AI dynamic traits unlocked"
+}
+]
+},
+"ai": {
+"enabled": true,
+"model_id": "gpt-q-lite",
+"model_hash": "sha256:0a1b2c3d...",
+"dynamic_traits": true
+},
+"quantum": {
+"post_quantum_secure": true,
+"identity_pub": "pq:dilithium:BASE64PUB...",
+"algorithm": "dilithium3",
+"notes": "Use Dilithium3 for evolve signatures; identity_pub is required for PQ verification"
+},
+"fees": {
+"fee_type": "onchain_output",
+"protocol_fee_percent": 1,
+"fee_address": "bc1puez48076vx6d3lnxkgnwzahsmpvmklfcnulcq0jgu6u4dl2yhmpsjr9kq0",
+"fee_scope": "per_tx",
+"fee_fixed_until_supply_exhausted": true,
+"note": "Genesis UNQ: No deploy fees. For mints: protocol_fee_percent per_tx; + phased price to reserve minus 1% to protocol treasury."
+},
+"reserve_address": "bc1p8px4vg2c4w79smuwts8s49xxzt6r8mlk9nyyf3jxa767flyhdres0xkz5c",
+"meta": {
+"name": "UNQ",
+"description": "Genesis object of BRC-8888 — universal, AI-enabled, and PQ-ready. Fair launch: 10K UNQ cap per user, founder 1M exempted (auditable). Founder allocation is vested and locked until public distribution completes.",
+"uri": "ipfs://QmExampleDeployMeta",
+"tokenomics": "21M fixed. Founder mint: 1M vested & locked. Public sale follows phased fixed prices. Protocol fees are 1% per tx; revenue captured by reserve_address (BRC-8888 takes 1%)."
+},
+"created_by": "Niseta Sigosi",
+"timestamp": "2025-11-26T16:30:00Z"
+}
