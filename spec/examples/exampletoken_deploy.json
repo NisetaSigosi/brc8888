@@ -1,0 +1,53 @@
+{
+  "p": "brc8888-1",
+  "v": "1",
+  "op": "deploy",
+  "tick": "exampletoken",
+  "genesis": false,
+  "otype": "u-object",
+  "supply": 10000000,
+  "decimals": 8,
+  "mint_rules": {
+    "user_cap": "5000",
+    "exempt_addrs": [],
+    "cooldown_blocks": 144,
+    "phases": [
+      {
+        "start_minted": "0",
+        "end_minted": "5000000",
+        "price_sats": 2100,
+        "perks": "Base access"
+      },
+      {
+        "start_minted": "5000001",
+        "end_minted": "10000000",
+        "price_sats": 4200,
+        "perks": "AI dynamic traits unlocked"
+      }
+    ]
+  },
+  "ai": {
+    "enabled": false
+  },
+  "quantum": {
+    "post_quantum_secure": false
+  },
+  "fees": {
+    "fee_type": "onchain_output",
+    "deploy_creation_fee_sats": 10000,
+    "protocol_fee_percent": 1,
+    "creator_fee_address": "bc1p9xdvl9k4tr2js33d8yxejtd0edk0ncp6c2effaaq96w4rx0td96szsrlm3",
+    "protocol_fee_address": "bc1puez48076vx6d3lnxkgnwzahsmpvmklfcnulcq0jgu6u4dl2yhmpsjr9kq0",
+    "fee_scope": "per_tx",
+    "note": "Non-genesis deploy: Pay deploy_creation_fee_sats to creator_fee_address + protocol_fee_percent to protocol_fee_address. For mints: protocol_fee_percent per_tx + phased price to reserve minus 1% to protocol_fee_address."
+  },
+  "reserve_address": "bc1pz467p50qh8ndnxj4dnhyc2xnkv666frynalay6z6ut2ggpvqpgjscedyv4",
+  "meta": {
+    "name": "ExampleToken",
+    "description": "Custom token under BRC-8888 — e.g., example for testing. Fair launch with user caps and phases.",
+    "uri": "ipfs://QmYourTokenMeta",
+    "tokenomics": "10M fixed. Paid deploy (10k sats total). Mints: 1% earnings to BRC-8888 protocol via phases."
+  },
+  "created_by": "AnyUserExample",
+  "timestamp": "2025-11-18T18:00:00Z"
+}
