@@ -1,0 +1,32 @@
+{
+  "p": "brc8888-1",
+  "v": "1",
+  "op": "evolve",
+  "ref": "inscription_id_of_deploy_or_last_evolve",
+  "tick": "UNQ",
+  "merkle_root": "sha256:3f2a9bdeadbeef00000000000000000000000000000000000000000000000000",
+  "proof_uri": "ipfs://QmProofArchiveHash",
+  "sig_pq": "BASE64_PQ_SIGNATURE",
+  "trigger": {
+    "type": "transfer",
+    "txid": "abcd...(txid of triggering transfer)",
+    "details": {
+      "expected_from": "bc1pSenderAddressPlaceholder",
+      "expected_to": "bc1pRecipientAddressPlaceholder",
+      "expected_qty": "100"
+    }
+  },
+  "fees": {
+    "fee_type": "onchain_output",
+    "protocol_fee_percent": 1,
+    "fee_address": "bc1puez48076vx6d3lnxkgnwzahsmpvmklfcnulcq0jgu6u4dl2yhmpsjr9kq0",
+    "fee_scope": "per_tx",
+    "note": "Indexers require an on-chain output >= 1% of tx value to fee_address in the same tx. fee_scope='per_tx' means fees are collected once per evolve inscription transaction."
+  },
+  "meta": {
+    "version": "1",
+    "purpose": "State evolution for UNQ (e.g., vesting unlock, phase shift, or rule update via verifiable transfer trigger)",
+    "timestamp": "2025-11-18T15:52:00Z",
+    "created_by": "Niseta Sigosi"
+  }
+}
