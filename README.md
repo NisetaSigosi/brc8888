@@ -184,3 +184,6 @@ PRs/issues for indexers, wallets, tools welcome. Follow roadmap.md and contribut
 🙏 Creator
 Niseta Sigosi
 2025: Evolving Bitcoin, one object at a time.
+#BRC8888
+
+**Keywords:** BRC-8888, UNQ token, Bitcoin Ordinals protocol, post-quantum evolutions, AI-aware objects, 1% protocol fee, phased minting
