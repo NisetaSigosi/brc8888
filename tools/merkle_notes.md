@@ -2,7 +2,7 @@
 
 These notes define the **canonical Merkle tree construction** used in BRC-8888 `evolve` operations. Indexers **MUST** follow this exactly for deterministic, tamper-proof state anchoring.
 
-Reference implementation: [`merkle_root.py`](../scripts/merkle_root.py)
+Reference implementation: [`merkle_root.py`](https://github.com/NisetaSigosi/brc8888/blob/scripts/scripts/merkle_root.py)
 
 ---
 
