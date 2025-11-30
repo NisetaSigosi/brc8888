@@ -9,7 +9,7 @@
 - [x] Full reference implementation released  
 - [x] Complete documentation + examples published  
 - [x] Bounty program announced (0.5% fee share + 100k UNQ for early indexers)  
-- [x] Community channels opened (X, Discord)
+- [x] Community channels opened (X)
 
 **We are here — the protocol is live on Bitcoin mainnet.**
 
@@ -65,7 +65,7 @@
 | First 1,000 custom BRC-8888 tokens | In progress | Community airdrop + recognition        |
 | Phase 1 sell-out (10M UNQ)       | In progress | Founder unlock begins                  |
 
-**Claim bounties anonymously** — open an issue or DM on Discord/X.
+**Claim bounties anonymously** — open an issue or email.
 
 ---
 
