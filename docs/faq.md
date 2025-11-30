@@ -92,7 +92,7 @@ Strict indexers enforce them; lenient ones don’t.
 **Yes — anyone can**:  
 - Inscribe a `deploy` JSON with your `tick`, supply, rules.  
 - Pay 10,000 sats creation fee + 1% protocol.  
-- Customize phases, caps, AI/PQ — see [exampletoken_deploy.json](spec/examples/exampletoken_deploy.json).
+- Customize phases, caps, AI/PQ — see [exampletoken_deploy.json](https://github.com/NisetaSigosi/brc8888/blob/spec/spec/examples/exampletoken_deploy.json).
 
 ---
 
