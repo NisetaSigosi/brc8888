@@ -1,6 +1,6 @@
 # BRC-8888 Testnet Inscription Flow
 
-Deploy, mint, transfer, and evolve BRC-8888 objects on **Bitcoin Testnet**—safe prototyping guide. Use UniSat or Xverse; simulate first with [deploy_ledger_validation.py](../deploy_ledger_validation.py). Assumes repo cloned.
+Deploy, mint, transfer, and evolve BRC-8888 objects on **Bitcoin Testnet**—safe prototyping guide. Use UniSat or Xverse; simulate first with [deploy_ledger_validation.py](https://github.com/NisetaSigosi/brc8888/blob/main/deploy_ledger_validation.py). Assumes repo cloned.
 
 **Current Height:** ~925,000+ (verify via [mempool.space/testnet](https://mempool.space/testnet)).  
 **Cost:** ~0.002 tBTC (faucet-funded).  
