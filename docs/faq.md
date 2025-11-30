@@ -104,7 +104,7 @@ Yes. The protocol was launched pseudonymously by **Niseta Sigosi** to promote de
 ### Where do I start?
 - **Read**: [Spec](https://github.com/NisetaSigosi/brc8888/blob/spec/spec/brc8888-spec.md) | [Validation](https://github.com/NisetaSigosi/brc8888/blob/main/deploy_ledger_validation.md)  
 - **Code**: Clone repo → run `python3 deploy_ledger_validation.py` for simulations  
-- **Examples**: [UNQ Deploy](spec examples/unq_deploy_mainnet.json) | [Mint](spec/examples/mint_example.json)  
+- **Examples**: [UNQ Deploy](spec examples/unq_deploy_mainnet.json) | [Mint](https://github.com/NisetaSigosi/brc8888/blob/spec/spec/examples/mint_example.json)  
 - **Community**: #BRC8888 
 
 **Launch your object today — fair, quantum-safe, and 100% Bitcoin.**
