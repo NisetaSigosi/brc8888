@@ -23,7 +23,7 @@ BRC-8888 unlocks Bitcoin for **programmable digital life**—Satoshi-inspired, q
 - ✔ **Evolutions**: Merkle-rooted state updates with PQ sigs (`sig_pq`) and triggers (transfers, time, oracles).  
 - ✔ **Fair Launch**: Caps, cooldowns, vesting (e.g., UNQ founder: 90-day cliff, 12-mo linear; 1M exempted, no mint fees for founder).  
 - ✔ **Economics**: Phased mints for UNQ (2100 sats Phase 1, 4200 sats Phase 2 with perks); 10k sats deploy fee for custom tokens + 1% protocol fee on every transaction (mint/transfer/evolve); enforced via TX outputs to treasury (`bc1pBRC8888ProtocolTreasuryHere...`).  
-- ✔ **Bitcoin-Native**: 100% inscriptions; deterministic indexers [deploy_ledger_validation.py]((https://github.com/NisetaSigosi/brc8888/blob/main/deploy_ledger_validation.py).  
+- ✔ **Bitcoin-Native**: 100% inscriptions; deterministic indexers [deploy_ledger_validation.py](https://github.com/NisetaSigosi/brc8888/blob/main/deploy_ledger_validation.py).  
 - ✔ **Future-Proof**: Dilithium3/Falcon PQ; AI `model_hash` provenance with simple demos (e.g., [ai_trait_gen.py](scripts/ai_trait_gen.py) for evolvable traits).
 
 **Why Now?** Ordinals >100M inscriptions (Nov 2025); BRC-8888 evolves static data into living assets. Community-driven from day one. To lure indexers: Clear docs, ref code, anonymous bounties (0.5% fee shares + 100k UNQ grants for early integrators), and encrypted outreach via X/Discord.
