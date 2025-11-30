@@ -4,7 +4,7 @@ This directory (`scripts/`) contains **official reference tooling** for preparin
 
 **Requirements**  
 - Python 3.10+  
-- Repo structure intact (scripts must be siblings with `merkle_root.py`)
+- Repo structure intact (scripts must be siblings with [merkle_root.py](https://github.com/NisetaSigosi/brc8888/blob/scripts/scripts/merkle_root.py)
 
 Run from repo root:  
 ```bash
