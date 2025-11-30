@@ -6,7 +6,7 @@ BRC-8888 is a Bitcoin-native protocol for **stateful, evolving, AI-aware, and po
 
 Genesis object: **UNQ** — 21M fixed supply, 8 decimals; fair-launch with 10K user caps, founder exemption (1M tokens, vested/locked, no mint fees for founder), and phased fixed-price minting (Phase 1: First 10M at 2100 sats; Phase 2: Next 11M at 4200 sats with AI perk unlocks) to build urgency and FOMO.
 
-**Live on Bitcoin:** Deploy UNQ via [unq_deploy_mainnet.json](brc8888/blob/spec/spec/examples/unq_deploy_mainnet.json); build yours with [exampletoken_deploy.json](spec/examples/exampletoken_deploy.json).
+**Live on Bitcoin:** Deploy UNQ via [unq_deploy_mainnet.json](/NisetaSigosi/brc8888/blob/main/brc8888/blob/spec/spec/examples/unq_deploy_mainnet.json); build yours with [exampletoken_deploy.json](spec/examples/exampletoken_deploy.json).
 
 **Genesis Inscription Links:**  
 - https://ordinals.com/inscription/111675299  
