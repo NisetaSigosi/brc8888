@@ -1,7 +1,7 @@
 # deploy_ledger_validation.md
 
 Reference indexer validation rules for BRC-8888 (v1)  
-Implementation: ([deploy_ledger_validation.py](https://github.com/NisetaSigosi/brc8888/blob/main/deploy_ledger_validation.py)
+Implementation: [deploy_ledger_validation.py](https://github.com/NisetaSigosi/brc8888/blob/main/deploy_ledger_validation.py)
 
 This document describes exactly how indexers must process `deploy` and `mint` operations to be fully compliant with BRC-8888.
 
