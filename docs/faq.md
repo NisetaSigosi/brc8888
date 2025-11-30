@@ -3,7 +3,7 @@
 **Last Updated:** November 26, 2025  
 **Protocol Version:** v1  
 **Genesis Inscription:** [68bc98a1b1e55c0ec7d5ffeae68b50d8fda0420ba5622e2ec943a87e8225d84ei0](https://ordinals.com/inscription/111675299)  
-**Reference:** [Spec](https://github.com/NisetaSigosi/brc8888/blob/spec/spec/brc8888-spec.md) | [Indexer Validation](deploy_ledger_validation.md) | [Reference Impl](deploy_ledger_validation.py)
+**Reference:** [Spec](https://github.com/NisetaSigosi/brc8888/blob/spec/spec/brc8888-spec.md) | [Indexer Validation](https://github.com/NisetaSigosi/brc8888/blob/main/deploy_ledger_validation.md) | [Reference Impl](deploy_ledger_validation.py)
 
 ---
 
