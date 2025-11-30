@@ -105,7 +105,7 @@ UNQ is live. Phase 1 is open. Rush now.
 | Indexer bugs            | Deterministic reference impl + multi-indexer sync   |
 | Archive loss            | Multi-pin (IPFS + Arweave) + public redundancy      |
 
-Full details: [security.md](https://github.com/NisetaSigosi/brc8888/blob/scripts/scripts/ai_trait_gen.py)
+Full details: [security.md](https://github.com/NisetaSigosi/brc8888/blob/docs/docs/security.md))
 
 ---
 
