@@ -10,10 +10,10 @@ Genesis object: **UNQ** — 21M fixed supply, 8 decimals; fair-launch with 10K u
 
 **Live Tool and Genesis Inscription Links:**  
 
-**Live Tool**
+- **Live Tool**
 - https://nisetasigosi.github.io/brc-8888/
   
-**Genesis Inscription Site**
+- **Genesis Inscription Site**
   
 - https://ordinals.com/inscription/111675299  
 - https://uniscan.cc/inscription/68bc98a1b1e55c0ec7d5ffeae68b50d8fda0420ba5622e2ec943a87e8225d84ei0  
