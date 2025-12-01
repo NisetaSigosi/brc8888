@@ -8,7 +8,13 @@ Genesis object: **UNQ** — 21M fixed supply, 8 decimals; fair-launch with 10K u
 
 **Live on Bitcoin:** Deploy UNQ via [unq_deploy_mainnet.json](https://github.com/NisetaSigosi/brc8888/blob/spec/spec/examples/unq_deploy_mainnet.json); build yours with [exampletoken_deploy.json](https://github.com/NisetaSigosi/brc8888/blob/spec/spec/examples/exampletoken_deploy.json).
 
-**Genesis Inscription Links:**  
+**Live Tool and Genesis Inscription Links:**  
+
+**Live Tool**
+- https://nisetasigosi.github.io/brc-8888/
+  
+**Genesis Inscription Site**
+  
 - https://ordinals.com/inscription/111675299  
 - https://uniscan.cc/inscription/68bc98a1b1e55c0ec7d5ffeae68b50d8fda0420ba5622e2ec943a87e8225d84ei0  
 - https://mempool.space/tx/68bc98a1b1e55c0ec7d5ffeae68b50d8fda0420ba5622e2ec943a87e8225d84e  
