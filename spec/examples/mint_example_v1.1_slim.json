@@ -1,0 +1,15 @@
+{
+  "p": "brc8888-1",
+  "v": "1.1",
+  "op": "mint",
+  "tick": "UNQ",
+  "qty": "100",
+  "minter": "bc1pMinterAddressPlaceholder000000000000",
+  "fees": {
+    "type": "tx_output",
+    "pct": 1
+  },
+  "meta": {
+    "ts": 1736208000
+  }
+}
