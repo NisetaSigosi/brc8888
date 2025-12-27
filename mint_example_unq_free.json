@@ -1,0 +1,16 @@
+{
+  "p": "brc8888-1",
+  "v": "1",
+  "op": "mint",
+  "tick": "UNQ",
+  "qty": "100",
+  "minter": "bc1pYourTaprootAddressHere",
+  "fees": {
+    "type": "tx_output",
+    "pct": 1
+  },
+  "meta": {
+    "ts": 1736208000,
+    "note": "Free mint window active — no phase price enforced until first indexer"
+  }
+}
